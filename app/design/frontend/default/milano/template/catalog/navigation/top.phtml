@@ -122,7 +122,6 @@ $_menu = $this->renderCategoriesMenuHtml(0,'level-top') ?>
             if($additionalLinkUrl && $additionalLink): ?>
                 <li class="level0 custom_link"><a href="<?php echo $additionalLinkUrl ?>" title="<?php echo $additionalLink ?>"><span><?php echo $additionalLink ?></span></a></li>
             <?php endif; ?>
-        <li class="level0 nav-1 level-top first last"><?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('menu')->toHtml(); ?></li>
         </ul>
 	</div>
     </div>
