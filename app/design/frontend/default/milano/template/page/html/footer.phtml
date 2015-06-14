@@ -35,15 +35,4 @@ $_social_config = Mage::getStoreConfig('milanoconfig/social');
         <div class="clear"></div>
     </div>  
 </div>
-<div class="footer-last-container">
-    <div class="footer-last">
-        <div class="f-left">
-			<?php echo $this->getChildHtml('cms_footer_links'); ?>
-            <?php echo $this->getChildHtml('footer_links'); ?>
-        </div>
-        <div class="f-right">
-        	<?php echo $this->getCopyright(); ?>
-        </div>
-    </div>
-</div>
 <?php if(Mage::getStoreConfig('milanoconfig/generaloptions/topbtn') == 1): ?><div id="message"><a href="#top" id="top-link">&nbsp;</a></div><?php endif; ?>
