@@ -840,7 +840,7 @@ html { overflow-x:hidden; padding: 0 !important; background:#fff; margin:0px !im
 /* Home Boxes */
 .home-text { float: left; position: relative; margin: 35px 6px 55px 0; width: 315px; color: #2E3471; border-right: 1px #ececec solid; }
 .home-text img { }
-.home-text h3 { color:#2E3471; font-family: 'TeXGyreAdventorRegular'; font-size: 22px; padding: 12px 10px 10px; margin: 0; line-height: 25px; ext-align: center; }
+.home-text h3 { color:#2E3471; font-family: 'TeXGyreAdventorRegular'; font-size: 22px; padding: 12px 10px 10px; margin: 0; line-height: 25px; text-align: center; }
 .home-text h5 { color:#999; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; padding: 0 10px 2px; text-transform: uppercase; margin-bottom: -10px; position: relative; }
 .home-text h5.purple { color:#97c6b9; }
 .home-text h5.green { color:#68a772; }
