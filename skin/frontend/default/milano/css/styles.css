@@ -840,12 +840,12 @@ html { overflow-x:hidden; padding: 0 !important; background:#fff; margin:0px !im
 /* Home Boxes */
 .home-text { float: left; position: relative; margin: 35px 6px 55px 0; width: 315px; color: #2E3471; border-right: 1px #ececec solid; }
 .home-text img { }
-.home-text h3 { color:#2E3471; font-family: 'TeXGyreAdventorRegular'; font-size: 22px; padding: 12px 10px 10px; margin: 0; line-height: 25px; }
+.home-text h3 { color:#2E3471; font-family: 'TeXGyreAdventorRegular'; font-size: 22px; padding: 12px 10px 10px; margin: 0; line-height: 25px; ext-align: center; }
 .home-text h5 { color:#999; font-family: Tahoma, Geneva, sans-serif; font-size: 10px; padding: 0 10px 2px; text-transform: uppercase; margin-bottom: -10px; position: relative; }
 .home-text h5.purple { color:#97c6b9; }
 .home-text h5.green { color:#68a772; }
 .home-text h5.pink { color:#e56f66; }
-.home-text p { padding: 0 120px 0 10px; }
+.home-text p { padding: 0 10px 0 10px; text-align: center;}
 .home-text.last { margin-right: 0; border: none; }
 a.readmore { color: #2E3471; font-size: 12px; font-family: 'TeXGyreAdventorRegular'; position: relative; }
 a.readmore:hover { text-decoration: underline; }
@@ -2437,4 +2437,4 @@ box-shadow: 0 0 7px rgba(0,0,0,0.1);  }
 /* ======================================================================================= */
 
 
-.more{background-color: #2E3471; color: #ffffff;}
+.more{background-color: #2E3471; color: #ffffff; padding: 5px; padding-left: 8px; padding-right: 8px;}
