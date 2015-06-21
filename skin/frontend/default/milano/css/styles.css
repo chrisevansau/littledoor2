@@ -876,7 +876,7 @@ a.readmore:hover { text-decoration: underline; }
 .slider-container { text-align: center; margin: 35px 0 0; position: relative; }
 .slider-container .strike-through { display: table; width: 100%; }
 .slider-container .strike-through:before,
-.slider-container .strike-through:after { content: ""; display: block; position: relative; top: 15px; border-top: #ececec 1px solid; }
+.slider-container .strike-through:after { content: ""; display: block; position: relative; top: 15px;  }
 .slider-container h5 { font-size: 25px; color: #2E3471; margin: 10px; display: table-cell; padding: 0 15px; width: 1px; white-space: nowrap; vertical-align: middle; }
 
 .product-slider { position:relative; margin-top: 30px; text-align: left; }
