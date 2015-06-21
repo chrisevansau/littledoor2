@@ -2436,6 +2436,8 @@ box-shadow: 0 0 7px rgba(0,0,0,0.1);  }
 .footer-menu:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
+.product-slider {border-top: thick solid #2E3471; border-bottom: thick solid #2E3471; padding-top: 60px; padding-bottom: 40px;}
+.labels-container{display: none;}
 .footer-column h4{text-transform: capitalize; color: #2E3471;}
 .form-subscribe{display: none;}
 .more{background-color: #2E3471; color: #ffffff; padding: 5px; padding-left: 8px; padding-right: 8px;}
