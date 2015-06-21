@@ -50,12 +50,7 @@
 			<item>
                 <title>Home Page Callout Block</title>
                 <identifier>home_callout</identifier>
-                <content><![CDATA[<ul class="home-callout">
-<li><a href="#" class="free-shipping">free shipping</a></li>
-<li><a href="#" class="promotions">promotions</a></li>
-<li><a href="#" class="support">support 24/7</a></li>
-<li><a href="#" class="top-seller">top seller</a></li>
-</ul>]]></content>
+                <content><![CDATA[]]></content>
                 <is_active>1</is_active>
                 <stores>
                     <item>0</item>
