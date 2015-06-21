@@ -2436,5 +2436,5 @@ box-shadow: 0 0 7px rgba(0,0,0,0.1);  }
 .footer-menu:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
-
+.form-subscribe{display: none;}
 .more{background-color: #2E3471; color: #ffffff; padding: 5px; padding-left: 8px; padding-right: 8px;}
