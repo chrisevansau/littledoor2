@@ -910,7 +910,7 @@ a.readmore:hover { text-decoration: underline; }
 .brands .brands-arrow { top: 8px !important; }
 
 /* Callout Block */
-ul.home-callout { padding: 20px 0; border-top: #ececec 1px solid; border-bottom: #ececec 1px solid; text-align: center; font-family: 'NovecentowideNormalRegular'; font-size: 13px; letter-spacing: 1px; }
+ul.home-callout { display:none; padding: 20px 0; border-top: #ececec 1px solid; border-bottom: #ececec 1px solid; text-align: center; font-family: 'NovecentowideNormalRegular'; font-size: 13px; letter-spacing: 1px; }
 ul.home-callout li { display: inline-block; margin: 5px 10px; }
 ul.home-callout li a.free-shipping, ul.home-callout li a.promotions, ul.home-callout li a.support, ul.home-callout li a.top-seller { position: relative; padding-left: 28px; }
 ul.home-callout li a.free-shipping:before,
