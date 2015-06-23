@@ -634,7 +634,7 @@ tr.summary-details-excluded { font-style:italic; }
 .cart-header .button-show { position:relative; }
 .cart-header .button-show a,
 .cart-header .price { display: inline-block; font-family: 'NovecentowideNormalRegular'; font-size: 13px; color: #999; }
-.cart-header .button-show .price { padding: 0 0 0 18px; cursor: default; position: relative; }
+.cart-header .button-show .price { padding: 0 0 0 0px; cursor: default; position: relative; }
 .cart-header .button-show .price:before { font-family: 'ShopSharkSymbols'; content: "M"; display: block; position: absolute; left: -2px; top: 1px; font-size: 18px; height: 16px; overflow: hidden; }
 .cart-header .block-title strong { color:#fff; }
 .cart-header .block-subtitle { border-bottom: none; }
@@ -714,11 +714,12 @@ tr.summary-details-excluded { font-style:italic; }
 #nav li.level0 { display: inline-block; padding-left: 12px; text-align: left; }
 #nav li.level0:before { display: block; content: "."; position: absolute; margin-left: -8px; margin-top: 15px; font-size: 7px; color: #000; }
 #nav li.level0 > a { padding: 15px 6px 14px 6px; }
+#nav li.level0.active > a { border-bottom: solid #0093BC; }
 #nav li.level0 > a > span,
 #nav li.level0 > p > a > span { font-family: 'NovecentowideUltraLightBold'; font-size: 13px; color: #2E3471; }
 #nav li.level0.block_li > a > span { cursor: pointer; }
 #nav li.level0 > a:hover > span,
-#nav li.level0.active > a > span { color: #b3a487; }
+#nav li.level0.active > a > span { color: #0093BC; }
 #nav .nav_block li.parent > a > span,
 #nav li.level1 > a > span,
 #nav .nav_block h3,
@@ -952,8 +953,8 @@ ul.home-callout li a.top-seller:before { content: "."; }
 /* Category Page ========================================================================= */
 
 /* General Category Display */
-.category-title { margin: 8px; background: #faf9f7; color: #2E3471; text-align: center; border: 2px #fff solid; width: auto; }
-.category-title-container { position: relative; overflow: hidden; background: #faf9f7; margin: 0 0 7px; }
+.category-title { margin: 8px; color: #2E3471; text-align: center; border: 2px #fff solid; width: auto; }
+.category-title-container { position: relative; overflow: hidden;  margin: 0 0 7px; }
 .category-title h1 { font-size: 30px; color:#2E3471; margin: 15px 0 9px; }
 .category-description { margin: 0 20px; padding: 0 0 15px; color: #222; font-family: Georgia, "Times New Roman", Times, serif; font-size: 12px; line-height: 22px; font-style: italic; }
 .category-description:before { content: ""; display: block; border-top: 1px #2E3471 solid; width: 50px; margin: 0 auto; padding-bottom: 10px; }
@@ -1038,7 +1039,7 @@ ul.home-callout li a.top-seller:before { content: "."; }
 .products-grid .add-to-links li a.link-wishlist:after { content: "."; }
 .products-grid .add-to-links li a.link-compare:after { content: "0"; }
 
-.products-grid .product_label { font-size: 14px; }
+.products-grid .product_label { font-size: 14px; display: none; }
 
 /* 3-Column Standard Grid */
 .products-grid.columns3 li.item { width: 240px; }
@@ -1359,7 +1360,7 @@ ul.home-callout li a.top-seller:before { content: "."; }
 .product-view .product-shop .price-box .old-price { float: left; margin: 0 10px 0 0; }
 .product-view .product-shop .product-code,
 .product-view .product-shop .availability { font-family: 'NovecentowideUltraLightBold'; font-size: 11px; float: left; margin-right: 10px; }
-.product-view .product-shop .availability.in-stock span { color: #b3a487; }
+.product-view .product-shop .availability.in-stock span { color: #0093BC; }
 .price-box { margin:5px 0; }
 .product-view .product-shop .price-box .price { font-size: 19px; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif; }
 .product-view .product-shop .price-box .regular-price .price { font-size: 24px; }
@@ -1495,7 +1496,7 @@ a#size_chart_link { color: #fff; font-family: Georgia, "Times New Roman", Times,
 
 /* Regular price */
 .regular-price { color:#090909; }
-.regular-price .price { font-size: 12px; color:#2E3471; }
+.regular-price .price { font-size: 12px; color:#0093BC; }
 
 /* Old price */
 .old-price { margin:0; }
@@ -1579,7 +1580,7 @@ a#size_chart_link { color: #fff; font-family: Georgia, "Times New Roman", Times,
 /* Add to Cart */
 .add-to-cart label { float:left; line-height:20px; font-family: 'NovecentowideUltraLightBold'; font-size: 11px; }
 .add-to-cart .qty { float:left; }
-.add-to-cart button.button { float: left; clear: both; margin: 10px 0 0 0; height: 40px; text-align: left; background: none; border: 4px #b3a487 solid; color: #b3a487; position: relative; padding-right: 80px; }
+.add-to-cart button.button { float: left; clear: both; margin: 10px 0 0 0; height: 40px; text-align: left; background: none; border: 4px #0093BC solid; color: #0093BC; position: relative; padding-right: 80px; }
 .add-to-cart button.button span { font-size: 12px; font-family: 'NovecentowideLightBold'; }
 .add-to-cart button.button > span > span:after { content: "W"; font-family: 'ShopSharkSymbols'; line-height: 20px; position: absolute; right: 7px; top: 10px; }
 .add-to-cart .paypal-logo { clear:left; margin:0; text-align:right; }
@@ -2436,6 +2437,26 @@ box-shadow: 0 0 7px rgba(0,0,0,0.1);  }
 .footer-menu:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
+.cart-header .button-show a, .cart-header .price{color: #2E3471;}
+.button-show{margin-top: 20px; line-height: 2.5;}
+.cart-header .button-show .price:before {display: none; padding: 0px;}
+.login{text-align: right;}
+.links{display: none;}
+.form-search{display: none;}
+.search-image img{margin-top: -6px;}
+.product-essential{border-top: thick solid #2E3471; border-bottom: thick solid #2E3471;}
+.footer-menu-container { border-top:none;}
+.availability span{color: #0093BC;}
+.product_label{color: #0093BC;}
+.product-tabs{display: none;}
+.category-description{border-top: thick solid #2E3471; border-bottom: thick solid #2E3471;   padding-top: 20px; padding-bottom: 20px;}
+.category-description:before{display: none;}
+#nav{border-bottom:none;}
+.products-grid .product_label{display: none !important;}
+.breadcrumbs{display: none;}
+.category-title h1{display: none !important;}
+.category-title span{font-size: 26px; color: #2E3471;  line-height: 36px; width: 600px; display: inline-block; text-transform: capitalize !important;}
+.inline-layers{display: none;}
 .product-slider {border-top: thick solid #2E3471; border-bottom: thick solid #2E3471; padding-top: 60px; padding-bottom: 40px;}
 .labels-container{display: none;}
 .footer-column h4{text-transform: capitalize; color: #2E3471;}

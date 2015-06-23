@@ -46,6 +46,7 @@
 	
 	/* Navigation */
 	.nav-container-outer{ display: none; }
+	.header-right{ display: none; }
 	.nav-demo-block { display: none; }
 	.mobile-nav-container{ display:block; }
 
@@ -205,6 +206,8 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
+
+	.category-description {display: none !important;}
 	
 	/* Header */
 	.header .header-left,
@@ -525,6 +528,6 @@
 	
 	/* Blog */
 	
-	
+
 }
 /* ======================================================================================= */
