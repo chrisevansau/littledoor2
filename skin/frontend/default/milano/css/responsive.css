@@ -43,6 +43,7 @@
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
+	.fullwidthbanner-container{ display: none !important;}
 	
 	/* Navigation */
 	.nav-container-outer{ display: none; }

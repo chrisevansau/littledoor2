@@ -2437,6 +2437,8 @@ box-shadow: 0 0 7px rgba(0,0,0,0.1);  }
 .footer-menu:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
 /* ======================================================================================= */
 
+.fullwidthbanner-container{ margin-left: auto; width: 946px !important; padding-right: 12px !important; margin-right: auto; margin-bottom: 0;}
+.tp-bgimg{ margin-top: 20px; padding-bottom: 0px;}
 .cart-header .button-show a, .cart-header .price{color: #2E3471;}
 .button-show{margin-top: 20px; line-height: 2.5;}
 .cart-header .button-show .price:before {display: none; padding: 0px;}
